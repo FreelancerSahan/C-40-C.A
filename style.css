@@ -1,0 +1,243 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+
+.nav-link {
+    margin-left: 12px;
+}
+
+.header-section {
+    background: #f3f3fa;
+}
+
+.header-section button {
+    color: #fff;
+    background: #768fff;
+}
+
+.header-section img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.header-section h5 {
+    padding-top: 140px;
+}
+
+.header-section h1 {
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.header-section p {
+    font-weight: 300;
+}
+
+.about-section button {
+    color: #fff;
+    background: #768fff;
+}
+
+.about-section h5 {
+    padding-top: 120px;
+}
+
+.about-section h1 {
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.about-section p {
+    font-weight: 300;
+}
+
+.number-counter {
+    background: #768fff;
+    padding: 100px 0;
+}
+
+.number-counter p {
+    color: #fff;
+}
+
+/*  About Section  */
+.about-item {
+    margin-top: 90px;
+}
+
+
+.about-item .card img {
+    width: 110px;
+    height: auto;
+    margin-top: -70px;
+    margin-left: 15px;
+}
+
+.contnt-form-div .card {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.2);
+    padding: 40px;
+}
+
+.div-section {
+    background: #f3f3fa;
+}
+
+.contact-section h3 {
+    font-weight: 300;
+    padding-top: 80px;
+}
+
+footer {
+    background: #000;
+    padding: 20px 0;
+    color: #fff;
+    font-weight: 300;
+}
+
+.contact-section {
+    background: #f3f3fa;
+}
+
+.about-item4 h3 {
+    height: 80px;
+    width: 80px;
+    background: #f3f3fa;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    padding-top: 23px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.div-section button {
+    font-weight: 300;
+    font-size: 17px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.2);
+    margin-bottom: 35px;
+    margin-top: 20px;
+}
+
+.div-section .card-title h5 {
+    padding-bottom: 20px;
+}
+
+.div-section .card-body h6 {
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.div-section .card-body p {
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+
+
+/* Responsive CSS */
+
+
+
+@media (max-width:576px) {
+    .header-section h5 {
+        padding-top: 20px;
+    }
+
+    .header-section h1 {
+        padding-bottom: 4px;
+        padding-top: -2px;
+        font-size: 22px;
+    }
+
+    .header-section p {
+        font-weight: 300;
+        font-size: 14px;
+    }
+
+    .about-section h5 {
+        padding-top: 0;
+    }
+
+    .about-section img {
+        padding-bottom: 0;
+    }
+
+    .about-section h1 {
+        padding-bottom: 0;
+        padding-top: 0;
+        font-size: 20px;
+    }
+
+    .about-section h5 {
+        padding-top: 0;
+        font-size: 17px;
+    }
+
+    .about-section p {
+        font-weight: 300;
+        font-size: 14px;
+    }
+
+
+
+    .number-counter {
+        background: #768fff;
+        padding: 12px 0;
+    }
+
+    .number-counter p {
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .div-section .card-body h6 {
+        padding-bottom: 0px;
+        font-size: 15px;
+    }
+
+    .div-section .card-body p {
+        font-weight: 300;
+        letter-spacing: 1px;
+        margin-bottom: 0;
+    }
+
+    .about-item4 {
+        margin-bottom: 10px;
+    }
+
+    .about-item .card img {
+        width: 94px;
+        height: auto;
+        margin-top: -70px;
+        margin-left: 15px;
+    }
+
+    .contact-section {
+        padding-top: 5px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .col h1 {
+        margin-bottom: 5px !important;
+        font-size: 20px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+
+
+@media(max-width:991px) {
+    .input-bottom {
+        margin-bottom: 13px;
+    }
+}
